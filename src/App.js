@@ -2,6 +2,7 @@ import { HelloName } from "./components/HelloName";
 import { HelloWorld } from "./components/HelloWorld";
 import { RandomNumber } from "./components/RandomNumber";
 import { RandomNumberAutoUpdate } from "./components/RandomNumberAutoUpdate";
+import { Triple } from "./components/Triple";
 import "./styles.css";
 
 export default function App() {
@@ -11,6 +12,9 @@ export default function App() {
       <HelloName name={"MIKU"} />
       <RandomNumber />
       <RandomNumberAutoUpdate />
+      <Triple>
+        <div>Hey!</div>
+      </Triple>
     </div>
   );
 }

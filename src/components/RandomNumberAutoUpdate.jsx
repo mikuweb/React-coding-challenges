@@ -8,7 +8,7 @@ export const RandomNumberAutoUpdate = () => {
     setRandomNumber(number);
   };
 
-  setInterval(fn, 1000);
+  setInterval(fn, 3000);
 
-  return <p>Random number every second: " {randomNumber} "⌛</p>;
+  return <p>Random number every 3 second: " {randomNumber} "⌛</p>;
 };
