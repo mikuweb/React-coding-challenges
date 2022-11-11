@@ -13,9 +13,8 @@ export default function App() {
       <HelloName name={"MIKU"} />
       <RandomNumber />
       <RandomNumberAutoUpdate />
-      <Triple>
-        <div>Hey!</div>
-      </Triple>
+      <Triple />
+      <br />
       <CreateRandomShape />
     </div>
   );
