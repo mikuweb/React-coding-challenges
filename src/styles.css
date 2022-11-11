@@ -2,3 +2,8 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.container__random-shape {
+  display: flex;
+  justify-content: center;
+}

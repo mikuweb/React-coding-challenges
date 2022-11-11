@@ -1,3 +1,4 @@
+import { CreateRandomShape } from "./components/CreateRandomShape";
 import { HelloName } from "./components/HelloName";
 import { HelloWorld } from "./components/HelloWorld";
 import { RandomNumber } from "./components/RandomNumber";
@@ -15,6 +16,7 @@ export default function App() {
       <Triple>
         <div>Hey!</div>
       </Triple>
+      <CreateRandomShape />
     </div>
   );
 }
