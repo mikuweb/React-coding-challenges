@@ -1,3 +1,4 @@
+import { AllCalculations } from "./components/AllCalculations";
 import { CreateRandomShape } from "./components/CreateRandomShape";
 import { HelloName } from "./components/HelloName";
 import { HelloWorld } from "./components/HelloWorld";
@@ -27,6 +28,9 @@ export default function App() {
       <Toggle>🍎🍌🍒🍓🫐🍅🍊</Toggle>
       <br />
       <Toggle>🍦🍨🍩🍪🍰🍬🍮</Toggle>
+      <br />
+      <br />
+      <AllCalculations a={1} b={2} />
     </div>
   );
 }
