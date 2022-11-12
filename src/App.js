@@ -1,8 +1,10 @@
 import { CreateRandomShape } from "./components/CreateRandomShape";
 import { HelloName } from "./components/HelloName";
 import { HelloWorld } from "./components/HelloWorld";
+import { NTuple } from "./components/NTuple";
 import { RandomNumber } from "./components/RandomNumber";
 import { RandomNumberAutoUpdate } from "./components/RandomNumberAutoUpdate";
+import { Toggle } from "./components/Toggle";
 import { Triple } from "./components/Triple";
 import "./styles.css";
 
@@ -18,6 +20,13 @@ export default function App() {
       </Triple>
       <br />
       <CreateRandomShape />
+      <br />
+      <NTuple>Welcome🌷</NTuple>
+      <br />
+      <br />
+      <Toggle>🍎🍌🍒🍓🫐🍅🍊</Toggle>
+      <br />
+      <Toggle>🍦🍨🍩🍪🍰🍬🍮</Toggle>
     </div>
   );
 }
