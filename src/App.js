@@ -8,6 +8,8 @@ import { RandomNumberAutoUpdate } from "./components/RandomNumberAutoUpdate";
 import { Shape } from "./components/Shape";
 import { Toggle } from "./components/Toggle";
 import { Triple } from "./components/Triple";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { facircle } from "@fortawesome/free-regular-svg-icons";
 import "./styles.css";
 
 export default function App() {
@@ -32,7 +34,11 @@ export default function App() {
       <br />
       <br />
       <AllCalculations a={1} b={2} />
+      <Shape shape={<FontAwesomeIcon icon="fa-regular fa-circle" />} />
       <Shape shape={"〇"} />
+      <Shape shape={<img src="./img/circle.png" />} />
+      <Shape shape={<img src="./img/square.png" />} />
+      <Shape shape={<img src="./img/triangle.png" />} />
     </div>
   );
 }
