@@ -35,10 +35,30 @@ export default function App() {
       <br />
       <AllCalculations a={1} b={2} />
       <Shape shape={<FontAwesomeIcon icon="fa-regular fa-circle" />} />
-      <Shape shape={"〇"} />
-      <Shape shape={<img src="./img/circle.png" />} />
-      <Shape shape={<img src="./img/square.png" />} />
-      <Shape shape={<img src="./img/triangle.png" />} />
+      <Shape
+        shape={
+          <img
+            style={{ width: "30px", height: "30px" }}
+            src="/img/circle.png"
+          />
+        }
+      />
+      <Shape
+        shape={
+          <img
+            style={{ width: "30px", height: "30px" }}
+            src="/img/square.png"
+          />
+        }
+      />
+      <Shape
+        shape={
+          <img
+            style={{ width: "30px", height: "30px" }}
+            src="/img/triangle.png"
+          />
+        }
+      />
     </div>
   );
 }
