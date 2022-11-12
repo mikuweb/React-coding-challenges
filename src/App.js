@@ -5,6 +5,7 @@ import { HelloWorld } from "./components/HelloWorld";
 import { NTuple } from "./components/NTuple";
 import { RandomNumber } from "./components/RandomNumber";
 import { RandomNumberAutoUpdate } from "./components/RandomNumberAutoUpdate";
+import { Shape } from "./components/Shape";
 import { Toggle } from "./components/Toggle";
 import { Triple } from "./components/Triple";
 import "./styles.css";
@@ -31,6 +32,7 @@ export default function App() {
       <br />
       <br />
       <AllCalculations a={1} b={2} />
+      <Shape shape={"〇"} />
     </div>
   );
 }

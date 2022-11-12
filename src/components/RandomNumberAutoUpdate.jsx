@@ -13,5 +13,5 @@ export const RandomNumberAutoUpdate = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return <p>Random number every 3 second: " {randomNumber} "⌛</p>;
+  return <p>Random number every second: " {randomNumber} "⌛</p>;
 };
