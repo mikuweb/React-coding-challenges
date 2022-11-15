@@ -1,5 +1,8 @@
 export const Shape = ({ shape }) => {
-  return <div>{shape}</div>;
+  const shaps = ["〇", "△", "□"];
+
+  const _shap = shaps[Math.floor(Math.random() * shaps.length)];
+  return <div>{_shap}</div>;
 };
 
 // Write a component <Shape shape={shape}>
