@@ -34,14 +34,7 @@ export default function App() {
       <br />
       <br />
       <AllCalculations a={1} b={2} />
-      {/* <Shape
-        shape={
-          <img
-            style={{ width: "30px", height: "30px" }}
-            src="/img/circle.png"
-          />
-        }
-      /> */}
+      <br />
       <Shape />
     </div>
   );
