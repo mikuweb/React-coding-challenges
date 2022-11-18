@@ -1,5 +1,10 @@
-export const NTuple = ({ children }) => {
-  return children;
+export const NTuple = ({ children, amount }) => {
+ const result = [...Array.from(Array(amount).keys())].map(() => {
+  return  children;
+ });
+ 
+ return <div>{result}</div>;
+
 };
 
 // Write a component <NTuple amount={amount}>...</NTuple>

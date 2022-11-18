@@ -25,7 +25,7 @@ export default function App() {
       <br />
       <CreateRandomShape />
       <br />
-      <NTuple>Welcome🌷</NTuple>
+      <NTuple amount={5}>Welcome🌷</NTuple>
       <br />
       <br />
       <Toggle>🍎🍌🍒🍓🫐🍅🍊</Toggle>
